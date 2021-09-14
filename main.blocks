@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="O~fFh[@w=K.HL;}t#h*W" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="4m$W0O*:0:/MM_h~xd?P"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="bP_7aPs~rEtABV;J;DEt"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="controls_repeat_ext" id="_rEXEB#`XP;SM{({q}iC"><value name="TIMES"><shadow type="math_whole_number" id="Ie.=d{t4.J)@c[g/p:9w"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="^-:zT`,PqJEI[,dWNz4%"><field name="LEDS">`
+        . . . # . 
+        # . # # . 
+        # # # # . 
+        # . # # . 
+        . . . # .
+        `</field><next><block type="device_show_leds" id=":MGI:xNDM64!`ef[KiRI"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></statement></block></statement></block><block type="device_forever" id="%+Y-g4EU5WFyO-0HrJ.^" x="346" y="127"><statement name="HANDLER"><block type="controls_if" id="`7NGMX=v48v[g,@l85G="><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="y:KaIEy|T%4qWqE6}z?o"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="controls_repeat_ext" id=":5Spw0MF;Q08]W}%Ij%J"><value name="TIMES"><shadow type="math_whole_number" id="AKK)}$rZy.6N@vB~{TUR"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="mbit_Buzzer" id="5uGR)8gWrD#/SR!$J`vS"><field name="pin">DigitalPin.P0</field><field name="value">mbit_音乐类.enBuzzer.Beep</field><next><block type="device_pause" id="RQqX6h|msQna0QXHKZaQ"><value name="pause"><shadow type="timePicker" id="K(MbkPC^N)lO{oqMiFJ7"><field name="ms">400</field></shadow></value><next><block type="mbit_Buzzer" id="NCxo#wjgd17e(a])kv4%"><field name="pin">DigitalPin.P0</field><field name="value">mbit_音乐类.enBuzzer.NoBeep</field><next><block type="device_pause" id="trU-=#.V*5_S*asRoOft"><value name="pause"><shadow type="timePicker" id="/#H#8;@mH%A6.YKnyv6P"><field name="ms">400</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block></statement></block></xml>
